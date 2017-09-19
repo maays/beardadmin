@@ -15,7 +15,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $config['ci_bootstrap'] = array(
 
 	// Site name
-	'site_name' => 'Being Beard Api',
+	'site_name' => 'Being Weird Api',
 
 	// Default page title prefix
 	'page_title_prefix' => '',
@@ -26,7 +26,7 @@ $config['ci_bootstrap'] = array(
 	// Default meta data
 	'meta_data'	=> array(
 		'author'		=> 'Aravind Umasankar',
-		'description'	=> 'Swagger Being Beard',
+		'description'	=> 'Swagger Being Weird',
 		'keywords'		=> ''
 	),
 

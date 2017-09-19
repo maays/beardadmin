@@ -30,21 +30,19 @@ $config['ci_bootstrap'] = array(
 	*/
 
 	// Site name
-	'site_name' => 'CI Bootstrap 3',
+		'site_name' => 'Being Beard',
 
 	// Default page title prefix
-	'page_title_prefix' => 'CI Bootstrap 3 - ',
+	'page_title_prefix' => '',
 
 	// Default page title
-	// (set empty then MY_Controller will automatically generate one based on controller / action)
 	'page_title' => '',
 
 	// Default meta data
-	// (name => content)
 	'meta_data'	=> array(
-		'author'		=> 'Michael Chan (https://github.com/waifung0207)',
-		'description'	=> 'CI Bootstrap 3',
-		'keywords'		=> 'PHP,CodeIgniter,CRUD'
+		'author'		=> 'Beard Yogi',
+		'description'	=> 'World Of Men',
+		'keywords'		=> 'Being Beard Men World'
 	),
 
 	// Default scripts to embed at page head or end
@@ -71,30 +69,6 @@ $config['ci_bootstrap'] = array(
 
 	// Default CSS class for <body> tag
 	'body_class' => '',
-
-	// Multilingual settings (set empty array to disable this)
-	'languages' => array(
-		'default'		=> 'en',				// to decide which of the "available" languages should be used
-		'autoload'		=> array('general'),	// language files to autoload
-		'available'		=> array(				// availabe languages with names to display on site (e.g. on menu)
-			'en' => array(						// abbr. value to be used on URL, or linked with database fields
-				'label'	=> 'English',			// label to be displayed on language switcher
-				'value'	=> 'english'			// to match with CodeIgniter folders inside application/language/
-			),
-			'zh' => array(
-				'label'	=> '繁體中文',
-				'value'	=> 'traditional-chinese'
-			),
-			'cn' => array(
-				'label'	=> '简体中文',
-				'value'	=> 'simplified-chinese'
-			),
-			'es' => array(
-				'label'	=> 'Español',
-				'value' => 'spanish'
-			)
-		)
-	),
 	
 	// Google Analytics User ID
 	'ga_id' => 'UA-XXXXXXXX-X',

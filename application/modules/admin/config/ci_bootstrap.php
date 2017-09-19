@@ -64,6 +64,14 @@ $config['ci_bootstrap'] = array(
 			'url'		=> '',
 			'icon'		=> 'fa fa-home',
 		),
+		'being_beard' => array(
+			'name'		=> 'Being Beard',
+			'url'		=> '',
+			'icon'		=> 'fa fa-bold',
+			'children'  => array(
+				'Campaigns'			=> 'beard/getCampaigns',
+			)
+		),
 		'user' => array(
 			'name'		=> 'Users',
 			'url'		=> 'user',
